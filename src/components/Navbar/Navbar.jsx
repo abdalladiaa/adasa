@@ -118,7 +118,7 @@ export default function Navbar() {
                 >
                   من نحن
                 </NavLink>
-                <Link className="btn text-sm text-center mt-2 bg-[linear-gradient(135deg,rgb(249,115,22),rgb(234,88,12))]">
+                <Link onClick={()=>setmenu(false)} className="btn text-sm text-center mt-2 bg-[linear-gradient(135deg,rgb(249,115,22),rgb(234,88,12))]" to={"/blog"}>
                   ابدأ القراءة
                 </Link>
               </div>
